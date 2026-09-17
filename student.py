@@ -1,5 +1,6 @@
 def show_student():
-    print("Student Management System")
+      name = input("请输入学生姓名：")
+      print(f"学生姓名：{name}")
 
-if __name__ == "__main__":
-    show_student()
+  if __name__ == "__main__":
+      show_student()
